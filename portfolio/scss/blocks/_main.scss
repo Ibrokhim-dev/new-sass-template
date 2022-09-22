@@ -1,0 +1,297 @@
+%card {
+   width: 350px;
+   height: 500px;
+   margin: 0px 150px;
+
+   // background-color:red;
+   border-top: solid  white 2px;
+   border-bottom: solid white 2px;;
+}
+
+%card_h1 {
+   font-family: 'Ibarra Real Nova';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 42px;
+   letter-spacing: -0.357143px;
+   color: #33323D;
+}
+
+
+
+.main__box1 {
+   display: flex;
+   justify-content: space-between;
+
+   &__left {
+      width: 540px;
+      height: 500px;
+      background: #FFEFEC;
+      text-align: center;
+   }
+
+   &__right {
+      @extend %card;
+      @extend %card_h1;
+      p{
+         width: 350px;
+         height: 150px;
+         font-family: 'Public Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 30px;
+         color: #33323D;
+         mix-blend-mode: normal;
+         opacity: 0.8;
+      }
+
+      .btn-box {
+         width: 175px;
+         height: 48px;
+         border: 1px solid #33323D;
+
+         a {
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            padding: 10px;
+
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #33323D;
+
+         }
+      }
+   }
+}
+
+
+.main__box2 {
+   margin-top:60px;
+   display: flex;
+   justify-content: space-between;
+
+   &__left {
+      width: 540px;
+      height: 500px;
+      background: #4F63D8;
+      text-align: center;
+      padding-top: 50px;
+
+   }
+
+   &__right {
+      @extend %card;
+      @extend %card_h1;
+
+      p{
+         width: 350px;
+         height: 150px;
+         font-family: 'Public Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 30px;
+         color: #33323D;
+         mix-blend-mode: normal;
+         opacity: 0.8;
+      }
+
+      .btn-box {
+         width: 175px;
+         height: 48px;
+         border: 1px solid #33323D;
+
+         a {
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            padding: 10px;
+
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            color: #33323D;
+
+         }
+      }
+   }
+}
+
+
+.main__box3 {
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-between;
+
+   &__left {
+      width: 540px;
+      height: 500px;
+      background:#9A99AB;
+      text-align: center;
+      padding-top: 50px
+
+   }
+
+   &__right {
+      @extend %card;
+      @extend %card_h1;
+      p{
+         width: 350px;
+         height: 150px;
+         font-family: 'Public Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 30px;
+         color: #33323D;
+         mix-blend-mode: normal;
+         opacity: 0.8;
+      }
+
+      .btn-box {
+         width: 175px;
+         height: 48px;
+         border: 1px solid #33323D;
+
+         a {
+            text-decoration: none;
+            text-align: center;
+            display:block;
+            padding:10px;
+
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #33323D;
+
+         }
+      }
+   }
+}
+
+
+.main__box4 {
+   margin-top:60px;
+   display: flex;
+   justify-content: space-between;
+
+   &__left {
+      width: 540px;
+      height: 500px;
+      background:#41B4D3;
+      text-align: center;
+      padding-top: 50px;
+
+   }
+
+   &__right {
+      @extend %card;
+      @extend %card_h1;
+
+      p{
+         width: 350px;
+         height: 150px;
+         font-family: 'Public Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 30px;
+         color: #33323D;
+         mix-blend-mode: normal;
+         opacity: 0.8;
+      }
+
+      .btn-box {
+         width: 175px;
+         height: 48px;
+         border: 1px solid #33323D;
+
+         a {
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            padding: 10px;
+
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            color: #33323D;
+
+         }
+      }
+   }
+}
+
+.main_box5{
+   margin-top:100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   &-h1 {
+      font-family: 'Ibarra Real Nova';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 42px;
+      letter-spacing: -0.357143px;
+      color: #33323D;
+      width: 340px;
+
+   }
+
+   &-hr {
+      width: 700px;
+      height: 1px;
+      background: #33323D;
+      opacity: 0.15;
+   }
+
+   &-btn {
+      width: 162px;
+      height: 48px;
+      background-color: $Secondary-bg-light;
+      text-align: center;
+
+      a {
+         display: block;
+         text-decoration: none;
+         padding-top: 15px;
+         font-family: 'Public Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 14px;
+         letter-spacing: 2px;
+         text-transform: uppercase;
+
+         color: #33323D;
+      }
+   }
+
+
+}
+
+

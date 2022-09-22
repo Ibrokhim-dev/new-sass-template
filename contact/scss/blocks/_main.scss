@@ -1,0 +1,111 @@
+.box1 {
+   width: 100%;
+   border-top: solid white 2px;
+   border-bottom: solid white 2px;
+   height: 300px;
+   padding-top: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+
+   h1 {
+      font-family: 'Ibarra Real Nova';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 42px;
+      letter-spacing: -0.357143px;
+      color: #33323D;
+   }
+
+   &__text {
+      width: 615px;
+      height: 210px;
+
+      p {
+         font-family: 'Public Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 30px;
+         color: #33323D;
+         opacity: 0.8;
+         padding-bottom: 20px;
+      }
+
+      &__iconka {
+         width: 104px;
+         height: 24px;
+
+         a {
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+         }
+      }
+
+
+   }
+
+
+}
+
+
+.box2 {
+   display: flex;
+   justify-content: space-between;
+
+   h1 {
+      font-family: 'Ibarra Real Nova';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 42px;
+
+      letter-spacing: -0.357143px;
+
+      color: #33323D;
+   }
+
+   .form {
+      padding-top: 20px;
+      width: 635px;
+      height: 400px;
+
+      label {
+         width: 635px;
+         height: 48px;
+         padding-bottom: 5px;
+         display: block;
+      }
+
+      input {
+         width: 635px;
+         height: 48px;
+         background-color: rgb(214, 214, 214);
+      }
+
+      textarea {
+         height: 96px;
+         width: 635px;
+         background-color: rgb(214, 214, 214);
+      }
+
+      &__btn {
+         margin-top: 15px;
+         width: 200px;
+         height: 48px;
+         background-color: #203A4C;
+         color: white;
+         font-family: 'Public Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 14px;
+         text-align: center;
+         letter-spacing: 2px;
+         text-transform: uppercase;
+
+      }
+   }
+}
